@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+ul{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 27, 35);
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    background-color: rgb(67, 60, 119);
+}
+.column, .main{
+    float: left;
+    padding: 10px;
+}
+.column{
+    width: 20%;
+}
+.main{
+    width: 60%;
+}
+.volejbal{
+    height: 170px;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+.fotbal{
+    height: 153px;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+.basketbal{
+    height: 401px;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+.volejbal:hover, .basketbal:hover, .fotbal:hover{
+    opacity: 1.0;
+    border-radius: 30px;
+}
+.valorant{
+    height: 330px;
+    border-radius: 40px;
+    opacity: 0.5;
+}
+.fortnite{
+    height: 233.24px;
+    border-radius: 40px;
+    opacity: 0.5;
+}
+.minecraft{
+    height: 233.24px;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+.minecraft:hover, .fortnite:hover, .valorant:hover{
+    border-radius: 30px;
+    opacity: 1.0;
+}
+
